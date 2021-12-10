@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap");
+
+:root {
+  --accentPrimary: #d4df3e;
+  --accentSecondary: #8a9211;
+  --textPrimary: #111111;
+  --textSecundary: #2e2e2e;
+  --backgroundPrimary: #eeeeee;
+  --backgroundSecondary: #dadada;
+  --boxBorder: #929292;
+  --boxShadow: #c3c2c2dc;
+  --overlay: #c3c2c2dc;
+}
+
+.content {
+  width: 90%;
+  max-width: 1440px;
+  margin-top: 60px;
+
+  height: calc(100vh - 90px);
+}
+
+.produtos-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+input,
+select {
+  padding: 6px 8px;
+
+  border: 2px solid transparent;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+a {
+  padding: 8px 16px;
+  height: 40px;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+
+
+.btn-save {
+  background-color: green;
+  color: white;
+}
+
+.btn-save:hover {
+  background-color: white;
+  color: green;
+  font-weight: 600;
+  border: 1px solid green;
+  transition: 0.3s;
+}
+
+.btn-cancel {
+  background-color: red;
+  color: white;
+}
+
+.btn-cancel:hover {
+  background-color: white;
+  color: red;
+  font-weight: 600;
+  border: 1px solid red;
+  transition: 0.3s;
+}
+
+h1 {
+  font-size: 24px;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+h1 em {
+  font-style: unset;
+  font-size: 44px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group label {
+  color: var(--textSecundary);
+  margin-bottom: 2px;
+  font-size: 14px;
+}
+
+.input-group input {
+  padding: 6px 8px;
+  width: 100%;
+
+  box-shadow: 0px 0px 2px var(--boxShadow);
+  font-size: 16px;
+  border: 1px solid whitesmoke;
+  border-radius: 4px;
+}
+
+.input-group>#image {
+  align-self: center;
+}
+
+.produtos-container header {
+  padding: 10px 0px;
+}
+
+.produtos-container header button {
+  margin-right: 10px;
+}
+
+.produtos-container main {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+
+  padding-bottom: 40px;
+}
+
+.form-produto {
+  width: 80%;
+  margin-top: 20px;
+  padding: 30px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 10px;
+
+  background-color: var(--backgroundPrimary);
+  border-radius: 6px;
+  box-shadow: 0px 0px 10px var(--boxShadow);
+}
+
+.form-produto>h1 {
+  grid-column: 1 / span 2;
+  color: var(--textPrimary);
+  font-size: 1.8rem;
+}
+
+.span2 {
+  grid-column: 1 / span 2;
+}
+
+.hidden {
+  visibility: hidden;
+}

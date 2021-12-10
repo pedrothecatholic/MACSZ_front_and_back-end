@@ -1,0 +1,538 @@
+{
+	"info": {
+		"_postman_id": "98a0079e-827c-40c6-8efb-6a19970d0d35",
+		"name": "api-macsz",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "cliente",
+			"item": [
+				{
+					"name": "findAll",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/artur/projeto-macsz/apiRest-projeto-macsz/cliente/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"artur",
+								"projeto-macsz",
+								"apiRest-projeto-macsz",
+								"cliente",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "findById",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"idCliente\": 2\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost/artur/projeto-macsz/apiRest-projeto-macsz/cliente/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"artur",
+								"projeto-macsz",
+								"apiRest-projeto-macsz",
+								"cliente",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "create",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nome\": \"Cauã Menezes\",\r\n    \"cpf\": \"928.295.130-88\",\r\n    \"dataNasc\": \"2004-04-10\",\r\n    \"dataCadastro\": \"2021-10-17\",\r\n    \"email\": \"cauamenezes@gmail.com\",\r\n    \"senha\": \"123\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost/artur/projeto-macsz/apiRest-projeto-macsz/cliente/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"artur",
+								"projeto-macsz",
+								"apiRest-projeto-macsz",
+								"cliente",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"idCliente\": 4\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost/artur/projeto-macsz/apiRest-projeto-macsz/cliente/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"artur",
+								"projeto-macsz",
+								"apiRest-projeto-macsz",
+								"cliente",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"idCliente\": 5,\r\n    \"nome\": \"Cauã Menezes\",\r\n    \"cpf\": \"928.295.130-88\",\r\n    \"dataNasc\": \"2004-04-10\",\r\n    \"dataCadastro\": \"2021-10-17\",\r\n    \"email\": \"cauamenezes@gmail.com\",\r\n    \"senha\": \"123\"\r\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost/artur/projeto-macsz/apiRest-projeto-macsz/cliente/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"artur",
+								"projeto-macsz",
+								"apiRest-projeto-macsz",
+								"cliente",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "categoria",
+			"item": [
+				{
+					"name": "findAll",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/artur/projeto-macsz/apiRest-projeto-macsz/categoria/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"artur",
+								"projeto-macsz",
+								"apiRest-projeto-macsz",
+								"categoria",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "findById",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"idCategoria\": 2\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost/artur/projeto-macsz/apiRest-projeto-macsz/categoria/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"artur",
+								"projeto-macsz",
+								"apiRest-projeto-macsz",
+								"categoria",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "create",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nome\": \"Maquiagens\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost/artur/projeto-macsz/apiRest-projeto-macsz/categoria/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"artur",
+								"projeto-macsz",
+								"apiRest-projeto-macsz",
+								"categoria",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"idCategoria\": 5\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost/artur/projeto-macsz/apiRest-projeto-macsz/categoria/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"artur",
+								"projeto-macsz",
+								"apiRest-projeto-macsz",
+								"categoria",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"idCategoria\": 5,\r\n    \"nome\": \"Batons\"\r\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost/artur/projeto-macsz/apiRest-projeto-macsz/categoria/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"artur",
+								"projeto-macsz",
+								"apiRest-projeto-macsz",
+								"categoria",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "produto",
+			"item": [
+				{
+					"name": "findAll",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/artur/projeto-macsz/apiRest-projeto-macsz/produto/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"artur",
+								"projeto-macsz",
+								"apiRest-projeto-macsz",
+								"produto",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "findById",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"idProduto\": 2\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost/artur/projeto-macsz/apiRest-projeto-macsz/produto/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"artur",
+								"projeto-macsz",
+								"apiRest-projeto-macsz",
+								"produto",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "create",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "nome",
+									"value": "Teste",
+									"type": "text"
+								},
+								{
+									"key": "preco",
+									"value": "R$ 3,50",
+									"type": "text"
+								},
+								{
+									"key": "descricao",
+									"value": "Lorem Ipsum",
+									"type": "text"
+								},
+								{
+									"key": "qntde",
+									"value": "20",
+									"type": "text"
+								},
+								{
+									"key": "desconto",
+									"value": "0",
+									"type": "text"
+								},
+								{
+									"key": "idCategoria",
+									"value": "3",
+									"type": "text"
+								},
+								{
+									"key": "foto",
+									"type": "file",
+									"src": "/C:/Users/21193098/Downloads/tenis.jpg"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost/artur/projeto-macsz/apiRest-projeto-macsz/produto/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"artur",
+								"projeto-macsz",
+								"apiRest-projeto-macsz",
+								"produto",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"idProduto\": 8\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost/artur/projeto-macsz/apiRest-projeto-macsz/produto/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"artur",
+								"projeto-macsz",
+								"apiRest-projeto-macsz",
+								"produto",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "idProduto",
+									"value": "7",
+									"type": "text"
+								},
+								{
+									"key": "nome",
+									"value": "Patinho",
+									"type": "text"
+								},
+								{
+									"key": "preco",
+									"value": "R$ 3,50",
+									"type": "text"
+								},
+								{
+									"key": "descricao",
+									"value": "Lorem Ipsum",
+									"type": "text"
+								},
+								{
+									"key": "qntde",
+									"value": "10",
+									"type": "text"
+								},
+								{
+									"key": "desconto",
+									"value": "10",
+									"type": "text"
+								},
+								{
+									"key": "idCategoria",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "foto",
+									"type": "file",
+									"src": "/C:/Users/21193098/Downloads/Pato-2.jpg"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost/artur/projeto-macsz/apiRest-projeto-macsz/produto/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"artur",
+								"projeto-macsz",
+								"apiRest-projeto-macsz",
+								"produto",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
